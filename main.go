@@ -28,6 +28,7 @@ func main() {
 	if portString == "" {
 		log.Fatal("PORT environment variable not set")
 	}
+	//test
 
 	dbUrl := os.Getenv("DB_URL")
 	if dbUrl == "" {
